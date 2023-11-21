@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.1 on win32)" generated="20230121 19:15:38.337" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\dwika\.vscode\extensions\robocorp.robotframework-lsp-1.7.3\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Open Browser">
+<arg>https://demo.nopcommerce.com/</arg>
+<arg>chrome</arg>
+<msg timestamp="20230121 19:15:38.890" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20230121 19:15:38.890" endtime="20230121 19:15:38.890"/>
+</kw>
+<kw name="Click Link">
+<arg>class=ico-register</arg>
+<status status="NOT RUN" starttime="20230121 19:15:38.891" endtime="20230121 19:15:38.891"/>
+</kw>
+<kw name="Select Radio Button">
+<arg>Gender</arg>
+<arg>M</arg>
+<status status="NOT RUN" starttime="20230121 19:15:38.894" endtime="20230121 19:15:38.894"/>
+</kw>
+<kw name="Input Text">
+<arg>id=FirstName</arg>
+<arg>angger</arg>
+<status status="NOT RUN" starttime="20230121 19:15:38.895" endtime="20230121 19:15:38.895"/>
+</kw>
+<kw name="Input Text">
+<arg>id=LastName</arg>
+<arg>dwi kartiko</arg>
+<status status="NOT RUN" starttime="20230121 19:15:38.897" endtime="20230121 19:15:38.897"/>
+</kw>
+<kw name="Select From List By Value">
+<arg>DateOfBirthDay</arg>
+<arg>27</arg>
+<status status="NOT RUN" starttime="20230121 19:15:38.898" endtime="20230121 19:15:38.898"/>
+</kw>
+<kw name="Select From List By Value">
+<arg>DateOfBirthMonth</arg>
+<arg>1</arg>
+<status status="NOT RUN" starttime="20230121 19:15:38.900" endtime="20230121 19:15:38.900"/>
+</kw>
+<kw name="Select From List By Value">
+<arg>DateOfBirthYear</arg>
+<arg>1997</arg>
+<status status="NOT RUN" starttime="20230121 19:15:38.902" endtime="20230121 19:15:38.902"/>
+</kw>
+<kw name="Input Text">
+<arg>id=Email</arg>
+<arg>belajarselenium@gmail.com</arg>
+<status status="NOT RUN" starttime="20230121 19:15:38.903" endtime="20230121 19:15:38.903"/>
+</kw>
+<kw name="Input Text">
+<arg>id=Company</arg>
+<arg>CIMBNIAGA</arg>
+<status status="NOT RUN" starttime="20230121 19:15:38.905" endtime="20230121 19:15:38.905"/>
+</kw>
+<kw name="Input Password">
+<arg>id=Password</arg>
+<arg>telkomindo</arg>
+<status status="NOT RUN" starttime="20230121 19:15:38.906" endtime="20230121 19:15:38.906"/>
+</kw>
+<kw name="Input Password">
+<arg>id=ConfirmPassword</arg>
+<arg>telkomindo</arg>
+<status status="NOT RUN" starttime="20230121 19:15:38.908" endtime="20230121 19:15:38.908"/>
+</kw>
+<kw name="Click Button">
+<arg>name=register-button</arg>
+<status status="NOT RUN" starttime="20230121 19:15:38.911" endtime="20230121 19:15:38.911"/>
+</kw>
+<kw name="Element Text Should Be">
+<arg>class=result</arg>
+<arg>Your registration completed</arg>
+<status status="NOT RUN" starttime="20230121 19:15:38.913" endtime="20230121 19:15:38.913"/>
+</kw>
+<status status="PASS" starttime="20230121 19:15:38.365" endtime="20230121 19:15:40.940"/>
+</kw>
+<status status="PASS" starttime="20230121 19:15:38.364" endtime="20230121 19:15:40.940"/>
+</test>
+<status status="PASS" starttime="20230121 19:15:38.340" endtime="20230121 19:15:40.941"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

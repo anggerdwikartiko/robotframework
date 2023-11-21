@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.4 on win32)" generated="20231121 11:01:26.980" rpa="false" schemaversion="3">
+<suite id="s1" name="Klickflow" source="D:\visual code\robot2\klickflow.robot">
+<test id="s1-t1" name="run test login" line="8">
+<kw name="login_klickflow" library="klickflow">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${geturl}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231121 11:01:28.124" level="INFO">Opening browser 'chrome' to base url 'http://54.151.100.17/klickflow/login.html'.</msg>
+<status status="PASS" starttime="20231121 11:01:28.119" endtime="20231121 11:01:34.275"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${inputemail}</arg>
+<arg>angger_kartiko@klickersgroup.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231121 11:01:34.279" level="INFO">Typing text 'angger_kartiko@klickersgroup.com' into text field '//*[@id="username"]'.</msg>
+<status status="PASS" starttime="20231121 11:01:34.276" endtime="20231121 11:01:34.462"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${inputpassword}</arg>
+<arg>@test1234</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231121 11:01:34.465" level="INFO">Typing text '@test1234' into text field '//*[@id="password"]'.</msg>
+<status status="PASS" starttime="20231121 11:01:34.463" endtime="20231121 11:01:34.576"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>${buttonlogin1}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20231121 11:01:34.580" level="INFO">Clicking button 'class=login-btn-new'.</msg>
+<status status="PASS" starttime="20231121 11:01:34.577" endtime="20231121 11:01:38.168"/>
+</kw>
+<status status="PASS" starttime="20231121 11:01:28.115" endtime="20231121 11:01:38.169"/>
+</kw>
+<status status="PASS" starttime="20231121 11:01:28.112" endtime="20231121 11:01:38.172"/>
+</test>
+<status status="PASS" starttime="20231121 11:01:26.988" endtime="20231121 11:01:38.179"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Klickflow">Klickflow</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
